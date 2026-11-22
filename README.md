@@ -30,6 +30,16 @@ node tests/logic.test.js
 | PB-04 | Earn badges for reading milestones | `refreshBadges`, `views.badges` in `js/app.js`; `BADGES`, `earnedBadges` in `js/logic.js` | Reach 25 / 50 / 75 / 100%: a toast appears and the badge unlocks on **Badges** |
 | PB-08 | Adjust text size and contrast | `views.settings`, `applySettings` in `js/app.js`; `html[data-text]`, `html.hc` in `css/styles.css` | **Display** (top right) → Large / Extra large, High-contrast colours |
 
+## Screenshots
+
+| Story | Screen |
+|---|---|
+| PB-01 | [Welcome: three ways to join](screenshots/01-welcome-PB-01.png) · [Same sign-up screen after scanning the QR](screenshots/02-signup-same-screen-PB-01.png) |
+| PB-02 | [Home with starter clubs](screenshots/03-home-starter-clubs-PB-02.png) · [Club page](screenshots/04-club-page-PB-02.png) |
+| PB-03 | [Milestone tracker](screenshots/05-reading-milestones-PB-03.png) · [Tracker on a phone](screenshots/08-mobile-reading-PB-03.png) |
+| PB-04 | [Badges as loyalty-card stamps](screenshots/06-badges-PB-04.png) |
+| PB-08 | [High contrast + extra-large text](screenshots/07-high-contrast-large-text-PB-08.png) |
+
 ## Acceptance criteria checked
 
 - **PB-01:** *Given* I don't have a QR scanner, *when* I enter the club code on the landing page, *then* I reach the same sign-up screen as the QR link. Codes are accepted in any case and with spaces or dashes (`read-26`). A wrong code shows a clear error.

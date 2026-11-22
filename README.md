@@ -4,6 +4,10 @@ This is a clickable, coded prototype that builds on the CP2408 Lean UX work for 
 
 It uses plain HTML, CSS and JavaScript, with no build step and no install. Data is saved in the browser's `localStorage`, so each device keeps its own demo data.
 
+## Live demo
+
+https://eslezer.github.io/Cityreads/ (served by GitHub Pages from `main`, root folder)
+
 ## Run it
 
 Double-click `index.html`. Or, to get the same behaviour as the team demo, serve the folder:

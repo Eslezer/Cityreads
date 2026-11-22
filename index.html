@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-AU" data-text="standard">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CityReads Prototype</title>
+  <meta name="description" content="CityReads: a city-wide social reading community prototype (CP3405).">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/home">
+        <span class="logo" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 10h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/>
+            <path d="M16 11h1.5a2.5 2.5 0 0 1 0 5H16"/>
+            <path d="M8 3c-.8 1 .8 2 0 3M12 3c-.8 1 .8 2 0 3"/>
+          </svg>
+        </span>
+        <span>CityReads</span>
+      </a>
+      <a class="topbar-link" href="#/settings">
+        <span aria-hidden="true" class="aa">Aa</span>
+        <span>Display</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main" class="container" tabindex="-1"></main>
+
+  <nav id="nav" class="tabbar" aria-label="Main" hidden>
+    <a href="#/home" data-route="home">Home</a>
+    <a href="#/reading" data-route="reading">My reading</a>
+    <a href="#/badges" data-route="badges">Badges</a>
+    <a href="#/settings" data-route="settings">Display</a>
+  </nav>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer class="footer">CP3405 prototype · demo data only · saved on this device</footer>
+
+  <script src="js/logic.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
